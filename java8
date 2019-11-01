@@ -1,0 +1,6 @@
+to select java version
+sudo update-alternatives --config java
+
+
+to install java-8
+apt-get install openjdk-8-jdk
