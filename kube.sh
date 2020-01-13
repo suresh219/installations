@@ -1,3 +1,6 @@
+#!/bin/bash
+sudo -i
+apt-get update
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 apt-get update && apt-get install -y apt-transport-https curl
